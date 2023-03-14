@@ -1,0 +1,318 @@
+body {
+  margin-left: 60px;
+  margin-right: 20px;
+  font-family: serif;
+}
+
+img {
+  width: 100%;
+}
+
+/*-----header-----*/
+
+#main-header {
+  margin-top: 60px;
+}
+
+#logo img {
+  max-width: 210px;
+}
+
+#site-title {
+  margin-bottom: 0;
+}
+
+#site-title a {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1.25;
+  font-family: sans-serif;
+}
+
+#site-title a:hover {
+  color: #dc6520;
+}
+
+#about-site {
+  color: #3c5349;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
+#header-image-container {
+  margin-top: 50px;
+}
+
+/*-----main-----*/
+
+#content {
+  margin-top: 80px;
+}
+
+main {
+  width: 70%;
+  display: inline-block;
+}
+
+#blog-header {
+  margin-bottom: 50px;
+}
+
+#blog-header h1 {
+  font-size: 3.2rem;
+  color: #13222c;
+  font-family: sans-serif;
+}
+
+/*-----views-----*/
+
+#views {
+  margin-bottom: 3px;
+}
+
+#views img {
+  margin-left: 2px;
+  width: 18px;
+  margin-bottom: -2px;
+}
+
+#views span {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+/*-----author container-----*/
+
+#author-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  font-family: sans-serif;
+  color: darkslategrey;
+}
+
+#author-container img {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+#author-name {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#author-container a {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+#author-container a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/*-----blog content-----*/
+
+#blog-content {
+  display: inline-block;
+  line-height: 1.15;
+  width: 70%;
+  font-size: 1.25rem;
+}
+
+#blog-content pre {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+#blog-content code {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/*-----aside-----*/
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3%;
+  width: 25%;
+}
+
+.widget {
+  margin-top: 3.5rem;
+  border-top: 4px solid black;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.widget a {
+  color: #dc6520;
+  text-decoration: none;
+}
+
+.widget a:hover {
+  color: #1a1a1a;
+}
+
+.widget .widget-title {
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  word-spacing: 0.1rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.widget li {
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.widget p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+label {
+  color: #3c5349;
+  padding-bottom: 3px;
+  display: block;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 4px 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #d1d1d1;
+  color: #686868;
+  display: block;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: #000000;
+  width: 90%;
+  border-radius: 2px;
+}
+
+button[type="submit"] {
+  background-color: #1a1a1a;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  padding: 12px 18px;
+  text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+  background-color: #dc6520;
+}
+
+#subscription .sub-btn {
+  margin-top: 10px;
+}
+
+#search form {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+#search input {
+  width: 80%;
+  display: inline-block;
+  border-radius: 5px 0 0 5px;
+}
+
+#search img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+#search button {
+  padding: 6px 0 6px;
+  margin-top: 2px;
+  width: 12%;
+  line-height: 1.5rem;
+  margin-left: -4px;
+  margin-bottom: 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+#recent-comments .name {
+  text-transform: uppercase;
+}
+
+/*-----Social-----*/
+
+#social {
+  position: fixed;
+  background-color: blue;
+  top: 25%;
+  left: 0;
+  line-height: 1;
+}
+
+#social .social-btn {
+  display: block;
+  padding: 12px 12px;
+}
+
+#social .social-img {
+  width: 20px;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#facebook:hover {
+  background-color: #2d4373;
+}
+
+#linkedin {
+  background-color: #0077b5;
+}
+
+#linkedin:hover {
+  background-color: #00121c;
+}
+
+#twitter {
+  background-color: #83c3f3;
+}
+
+#twitter:hover {
+  background-color: #68a7d7;
+}
+
+#gmail {
+  background-color: #dd4b39;
+}
+
+#gmail:hover {
+  background-color: #c23321;
+}
+
+#whatsapp {
+  background-color: #6ba92f;
+}
+
+#whatsapp:hover {
+  background-color: #528124;
+}
+
+#mail {
+  background-color: #ed4926;
+}
+
+#mail:hover {
+  background-color: #cf3311;
+}
